@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Miss Swiss Resort</title>
+        <meta name="author" content="Phoenix Crain">
+        <meta name="description" content="contact page for Miss Swiss resort">
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!--fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/ime6tsn.css">
+
+        <!--stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <header>
+        <h1><a href="#">Miss Swiss</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <h2>Contact Us</h2>
+        <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+            Required fields marked with a *</p>
+        <div id= "form-section">
+        <img src="images/swiss-sunset.jpg" width="710" height="270" alt="a photograph of a sunset over the swiss Alps">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <div class="form1">
+                <label for="fname">Full Name*</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="my-email">Email Address*</label><br>
+                <input type="email" id="my-email" name="my-email" required><br>
+                <label for="my-phone">Phone Number*</label><br>
+                <input type="tel" id="my-phone" name="my-phone" required><br>
+            </div>
+            <div class="form2">
+                <p>Preferred Contact Method*</p>
+                <input type="radio" id="email" value="email" name="my-contact" required>
+                <label for="email">Email</label>
+                <input type="radio" id="Phone" value="Phone" name="my-contact">
+                <label for="Phone">Phone</label><br>
+                <label for="comments">Comments</label><br>
+                <textarea id="comments" rows="5" cols="30"></textarea><br>
+                <input type="submit">
+            </div>
+        </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>Copyright &copy;2023 - Miss Swiss</p>
+        <p>This site is for educational services only</p>
+    </footer>
